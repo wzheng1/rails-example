@@ -32,7 +32,7 @@ RailsApp::Application.configure do
   # Do not compress assets
   config.assets.compress = false
 
-  config.logger = Logger.new(STDOUT)
+  #config.logger = Logger.new(STDOUT)
   
   # Expands the lines which load the assets
   config.assets.debug = true
